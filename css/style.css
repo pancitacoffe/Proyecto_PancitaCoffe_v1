@@ -1,0 +1,56 @@
+/* Archivo CSS */
+/* Estilos generales */
+
+/* Estilos del carrusel */
+.carrusel {
+    width: 150px;
+    height: 200px;
+    
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilos de las imágenes */
+.imagen {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+/* Estilo de la imagen activa */
+.activa {
+    opacity: 1;
+}
+
+/* Estilos de los botones */
+.botones {
+
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Estilo de cada botón */
+.boton {
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/* Estilo del botón activo */
+.boton.activo {
+    opacity: 1;
+}

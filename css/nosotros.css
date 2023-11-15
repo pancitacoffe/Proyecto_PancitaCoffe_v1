@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgba(121, 94, 79, 0.847);
+    animation-duration: 3s;
+}
+
+header {
+    background-image: url(../imagenes/nosotros_fondo_de_pantalla_header.png);
+}
+
+
+
+
+/* CONTENEDOR DE HORARIO DE ATENCION E ICONOS DE REDES SOCIALES */
+.horario_atencion_y_redes_sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    padding: 0px 85px;
+    align-items: center;
+    height: 46.87px;
+    
+}
+
+/* HORARIO DE ATENCION */
+.horario_atencion {
+    color: white;
+    font-family: Sans Serif Collection;
+    font-size: 11.25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ICONOS REDES SOCIALES */
+.redes_sociales {
+    margin-top: 6px;
+}
+
+/* ICONO DE INSTAGRAM */
+.icon_red_social_instagram {
+    margin-right: 20px;
+}
+
+/* ICONO DE FACEBOOK */
+.icon_red_social_facebook {
+    margin-right: 20px;
+}
+
+/* CONTENEDOR DE LOGO PRINCIPAL Y MENU DE NAVEGACION */
+.logo_pancita_coffee_y_menu_de_navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px 60px;
+    padding: 0px 85px;
+    align-items: center;
+}
+
+/* LOGO PRINCIPAL DE PANCITA COFFEE */
+.logo_principal {
+    width: 280px;
+    height: 81.3px;
+}
+
+/* MENU DE NAVEGACION */
+    /* MENU DE NAVEGACION PAGINA DE INICIO */
+    .menu_navegacion_menu {
+        margin-right: 24px;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+    /* MENU DE NAVEGACION PAGINA DE NOSOTROS */
+    .menu_navegacion_nosotros {
+        margin-right: 24px;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+    /* MENU DE NAVEGACION PAGINA DE ACCEDER */
+    .menu_navegacion_acceder {
+        margin-right: 24px;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+    /* MENU DE NAVEGACION PAGINA DE REGISTROS */
+    .menu_navegacion_registrate {
+        margin-right: 24px;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+    /* MENU DE NAVEGACIN PAGINA DE CONTACTOS */
+    .menu_navegacion_contactos {
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+
+
+/* PRIMER TITULO Y PRIMER SUBTITULO */
+.primer_titulo_y_primer_subtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 245px;
+}
+    /* PRIMER TITULO */
+    .primer_titulo {
+        color: white;
+        font-family: 'Roboto Slab', serif;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    /* PRIMER SUBTITULO */
+    .primer_titulo_subtitulo {
+        margin-top: 23px;
+        margin-bottom: 36.56px;
+        color: white;
+        font-family: Roboto Slab;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+/* MAIN */
+/* PRIMER BLOQUE */
+.primer_bloque {
+    margin: 100px;
+}
+
+/* SEGUNDO TITULO Y RAYAS */
+.primer_bloque_segundo_titulo_y_rayas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 46.87px;
+}
+
+/* SEGUNDO TITULO */
+.segundo_titulo {
+    font-size: 31.874px;
+    color: #614A3D;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+}
+    /* PRIMERA RAYA */
+    .segundo_titulo_raya1 {
+        width: 374.993px;
+        height: 0.937px;
+        background: #614A3D;
+        margin-bottom: 11px;
+    }
+    /* SEGUNDA RAYA */
+    .segundo_titulo_raya2 {
+        width: 187.496px;
+        height: 0.937px;
+        background: #614A3D;
+    }
+
+/* PRIMER BLOQUE TEXTO NOSOTROS Y LA IMAGEN DEL PRIMER BLOQUE */
+.primer_bloque_texto_nosotros_y_imagen_primer_bloque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+/* TEXTO SOBRE NOSOTROS */
+.texto_sobre_nosotros {
+    width: 426px;
+    margin-right: 40px;
+    text-align: justify;
+    color: #666260;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18.741px;
+}
+
+
+
+
+
+
+/* SEGUNDO BLOQUE */
+.segundo_bloque {
+    color: white;
+    padding: 100px;
+    background-image: url(../imagenes/nosotros_imagen_segundo_bloque_fondo.png);
+}
+
+/* SEGUNDO BLOQUE TERCER TITULO Y RAYAS */
+.segundo_bloque_tercer_titulo_y_rayas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 46.87px;
+}
+
+/* TERCER TITULO */
+.tercer_titulo {
+    font-size: 31.874px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+}
+    /* PRIMERA RAYA */
+    .tercer_titulo_raya1 {
+        width: 374.993px;
+        height: 0.937px;
+        background-color: white;
+        margin-bottom: 11px;
+    }
+    /* SEGUNDA RAYA */
+    .tercer_titulo_raya2 {
+        width: 187.496px;
+        height: 0.937px;
+        background-color: white;
+    }
+
+/* SEGUNDO BLOQUE TEXTO VALORES Y FILOSOFIA Y LA IMAGEN DEL SEGUNDO BLOQUE */
+.segundo_bloque_texto_valores_y_filosofia_y_imagen_segundo_bloque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* TEXTO VALORES Y FILOSOFIA */
+.texto_valores_y_filosofia {
+    width: 500px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Roboto Slab;
+    font-size: 18.741px;
+    font-style: normal;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+/* TERCER BLOQUE */
+.tercer_bloque {
+    padding: 100px;
+}
+
+/* TERCER BLOQUE CUARTO TITULO Y RAYAS */
+.tercer_bloque_cuarto_titulo_y_rayas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 46.87px;
+}
+
+/* CUARTO TITULO */
+.cuarto_titulo {
+    font-size: 31.874px;
+    color: #614A3D;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+}
+    /* PRIMERA RAYA */
+    .cuarto_titulo_raya1 {
+        width: 374.993px;
+        height: 0.937px;
+        background: #614A3D;
+        margin-bottom: 11px;
+    }
+    /* SEGUNDA RAYA */
+    .cuarto_titulo_raya2 {
+        width: 187.496px;
+        height: 0.937px;
+        background: #614A3D;
+    }
+
+/* TERCER BLOQUE TEXTO PASION POR EL CAFE Y LA IMAGEN DEL TERCER BLOQUE */
+.tercer_bloque_texto_pasion_por_el_cafe_y_imagen_tercer_bloque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_pasion_por_el_cafe {
+    width: 426px;
+    margin-right: 40px;
+    text-align: justify;
+    color: #666260;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18.741px;
+}
+
+
+/* CUARTO BLOQUE */
+.cuarto_bloque {
+    color: white;
+    padding: 100px;
+    background-image: url(../imagenes/fondo_pantalla_cafe.png);
+}
+
+/* QUINTO TITULO */
+.quinto_titulo {
+    font-size: 31.874px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 46.87px;
+}
+
+/* CUARTO BLOQUE TEXTO EL EQUIPO DE LA CAFETERIA Y IMAGEN CUARTO BLOQUE */
+.cuarto_bloque_texto_el_equipo_de_la_cafeteria_y_imagen_cuarto_bloque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* TEXTO EL EQUIPO DE LA CAFETERIA */
+.texto_el_equipo_de_la_cafeteria {
+    width: 397px;
+    color: #FFF;
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.202);
+    padding: 62.5px 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    margin-top: 10px;
+    background-image: url(../imagenes/fondo_pantalla_cafe.png);
+    padding: 100px 0px 0px 0px;
+}
+
+.logo_pancita_coffee_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor_columnas_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.titulo_contenedores_piepagina {
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+
+
+
+.lista_contenedores_piepagina1 {
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 50px;
+}
+
+.lista_contenedores_piepagina2 {
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 50px;
+}
+
+.lista_contenedores_piepagina3 {
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 50px;
+}
+
+.lista_contenedores_piepagina4 {
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.texto_piedepagina {
+    color: white;
+}
+
+.piedepagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 23px 100px;
+    background-color: #120E0C;
+    margin-top: 100px;
+}
